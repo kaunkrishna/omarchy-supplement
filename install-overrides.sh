@@ -5,7 +5,7 @@ set -e
 HYPRLAND_CONFIG="$HOME/.config/hypr/hyprland.lua"
 LEGACY_CONFIG="$HOME/.config/hypr/hyprland.conf"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-OVERRIDES_CONFIG="$SCRIPT_DIR/hyprland-overrides.lua"
+OVERRIDES_CONFIG="$SCRIPT_DIR/overrides/hyprland-overrides.lua"
 SOURCE_LINE="dofile(\"$OVERRIDES_CONFIG\")"
 LEGACY_SOURCE_LINE="source = $SCRIPT_DIR/hyprland-overrides.conf"
 

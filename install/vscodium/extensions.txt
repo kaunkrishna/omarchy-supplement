@@ -1,0 +1,6 @@
+pkief.material-icon-theme
+pkief.material-product-icons
+
+tonybaloney.vscode-pets
+
+formulahendry.code-runner
